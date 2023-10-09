@@ -458,21 +458,10 @@ export const slackConfig: IConfigCredentials[] = [
 
 export const ryverConfig: IConfigCredentials[] = [
   {
-    key: CredentialsKeyEnum.User,
-    displayName: 'Username',
+    key: CredentialsKeyEnum.WebhookUrl,
+    displayName: 'Webhook URL',
     type: 'string',
-    required: true,
-  },
-  {
-    key: CredentialsKeyEnum.Password,
-    displayName: 'Password',
-    type: 'string',
-    required: true,
-  },
-  {
-    key: CredentialsKeyEnum.ClientId,
-    displayName: 'Workrooms Id',
-    type: 'string',
+    description: 'The webhook URL to trigger Chat messages',
     required: true,
   },
 ];

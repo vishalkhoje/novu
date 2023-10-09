@@ -7,9 +7,5 @@ A Ryver chat provider library for [@novu/node](https://github.com/novuhq/novu)
 ````javascript
 import { RyverProvider } from '@novu/ryver';
 
-const provider = new RyverProvider({
-  username: process.env.username,
-  password: process.env.password,
-  clientId: process.env.clientId,
-});
+const provider = new RyverProvider();
 ````
